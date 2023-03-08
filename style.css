@@ -1,0 +1,26 @@
+body, ul,li,p{
+  margin: opx;
+  padding: opx;
+  list-style: name;
+  font-size: 1.2rem;
+  font-family: Arial; 
+ }
+
+ .logo{
+width: 200px;
+}
+
+a{
+    text-decoration: name;
+    color: white;
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
