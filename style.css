@@ -35,3 +35,29 @@ menu li a{
     padding: 10px;
     background-color: darkorange;
 }
+
+                     /**************** fazendo o corpo do site ************************/
+
+.flex{
+    min-height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+}
+/* ajustando o tamanho da img */
+ .imagem{
+    width: 400px;
+    height: auto;
+}
+/* ajustando os intens da pagina */ 
+.item{
+     display: flex;
+     /*justify-content: flex-end; */
+     align-items: flex-start;
+     border: 2px solid black;
+     margin: 10px;
+}
+.paragrafo{
+     padding: 10px;
+     text-align: justify;
+}
